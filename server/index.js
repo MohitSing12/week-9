@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
+app.get("/",(req,res)=>res.json({msg:"Hello this is my first time creating the ci/cd pipeline!!"}))
 
 
 // Connect to MongoDB
