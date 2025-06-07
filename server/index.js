@@ -14,7 +14,7 @@ app.use("/user", userRouter)
 app.get("/",(req,res)=>res.json({msg:"Hello this is my first time creating the ci/cd pipeline!!"}))
 
 
-// Connect to MongoDB
+// Connnect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
 // mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
 
